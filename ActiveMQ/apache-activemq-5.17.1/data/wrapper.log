@@ -1,0 +1,136 @@
+FATAL  | wrapper  | 2022/06/24 14:09:38 | OpenSCManager failed - Zugriff verweigert (0x5)
+STATUS | wrapper  | 2022/06/24 14:09:45 | ActiveMQ installed.
+STATUS | wrapper  | 2022/06/24 14:09:46 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/24 14:09:47 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/24 14:09:47 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/24 14:09:47 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/24 14:09:47 | 
+INFO   | jvm 1    | 2022/06/24 14:09:47 | 
+INFO   | jvm 1    | 2022/06/24 14:09:47 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           could not be loaded:
+INFO   | jvm 1    | 2022/06/24 14:09:47 |             C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win32\..\..\bin\win32\wrapper.dll
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           Reported cause:
+INFO   | jvm 1    | 2022/06/24 14:09:47 |             C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win32\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2022/06/24 14:09:47 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2022/06/24 14:09:47 | 
+INFO   | jvm 1    | 2022/06/24 14:09:47 | WrapperSimpleApp: Unable to locate the class org.apache.activemq.console.Main: java.lang.UnsupportedClassVersionError: org/apache/activemq/console/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+INFO   | jvm 1    | 2022/06/24 14:09:47 | 
+INFO   | jvm 1    | 2022/06/24 14:09:47 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2022/06/24 14:09:47 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2022/06/24 14:09:47 | 
+INFO   | jvm 1    | 2022/06/24 14:09:47 | Where:
+INFO   | jvm 1    | 2022/06/24 14:09:47 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2022/06/24 14:09:47 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2022/06/24 14:09:47 |                   application.
+STATUS | wrapper  | 2022/06/24 14:09:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/24 14:46:35 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/24 14:46:35 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/24 14:46:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/24 14:46:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/24 14:46:36 | 
+INFO   | jvm 1    | 2022/06/24 14:46:36 | WrapperSimpleApp: Unable to locate the class org.apache.activemq.console.Main: java.lang.UnsupportedClassVersionError: org/apache/activemq/console/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+INFO   | jvm 1    | 2022/06/24 14:46:36 | 
+INFO   | jvm 1    | 2022/06/24 14:46:36 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2022/06/24 14:46:36 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2022/06/24 14:46:36 | 
+INFO   | jvm 1    | 2022/06/24 14:46:36 | Where:
+INFO   | jvm 1    | 2022/06/24 14:46:36 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2022/06/24 14:46:36 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2022/06/24 14:46:36 |                   application.
+STATUS | wrapper  | 2022/06/24 14:46:39 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/24 14:47:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/24 14:47:33 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/24 14:47:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/24 14:47:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/24 14:47:33 | 
+INFO   | jvm 1    | 2022/06/24 14:47:33 | WrapperSimpleApp: Unable to locate the class org.apache.activemq.console.Main: java.lang.UnsupportedClassVersionError: org/apache/activemq/console/Main has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+INFO   | jvm 1    | 2022/06/24 14:47:33 | 
+INFO   | jvm 1    | 2022/06/24 14:47:33 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2022/06/24 14:47:33 |   java org.tanukisoftware.wrapper.WrapperSimpleApp {app_class} [app_arguments]
+INFO   | jvm 1    | 2022/06/24 14:47:33 | 
+INFO   | jvm 1    | 2022/06/24 14:47:33 | Where:
+INFO   | jvm 1    | 2022/06/24 14:47:33 |   app_class:      The fully qualified class name of the application to run.
+INFO   | jvm 1    | 2022/06/24 14:47:33 |   app_arguments:  The arguments that would normally be passed to the
+INFO   | jvm 1    | 2022/06/24 14:47:33 |                   application.
+STATUS | wrapper  | 2022/06/24 14:47:36 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/24 14:50:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/24 14:50:09 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/24 14:50:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/24 14:50:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/24 14:50:09 | 
+INFO   | jvm 1    | 2022/06/24 14:50:09 | Java Runtime: Oracle Corporation 17.0.2 C:\JDK\jdk-17.0.2
+INFO   | jvm 1    | 2022/06/24 14:50:09 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/06/24 14:50:09 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=BN0zFemWato238Re -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=13476 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/24 14:50:09 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/24 14:50:09 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/24 14:50:09 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/24 14:50:09 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/24 14:50:09 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/24 14:50:09 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/24 14:50:10 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/24 14:50:10 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | PListStore:[C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-P98JIU4-63156-1656075011013-0:1) is starting
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Listening for connections at: tcp://DESKTOP-P98JIU4:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Listening for connections at: amqp://DESKTOP-P98JIU4:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Listening for connections at: stomp://DESKTOP-P98JIU4:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Listening for connections at: mqtt://DESKTOP-P98JIU4:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4d743beb{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Listening for connections at ws://DESKTOP-P98JIU4:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-P98JIU4-63156-1656075011013-0:1) started
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 56016 mb of usable space. - resetting to maximum available disk space: 56016 mb
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/06/24 14:50:11 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2022/06/24 22:04:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/24 22:04:31 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/24 22:04:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/24 22:04:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/24 22:04:31 | 
+INFO   | jvm 1    | 2022/06/24 22:04:31 | Java Runtime: Oracle Corporation 17.0.2 C:\JDK\jdk-17.0.2
+INFO   | jvm 1    | 2022/06/24 22:04:31 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2022/06/24 22:04:31 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=gg4UYZoZE37YXnEk -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=23148 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/24 22:04:31 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/24 22:04:31 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/24 22:04:31 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/24 22:04:31 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/24 22:04:31 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/24 22:04:31 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/24 22:04:32 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/24 22:04:32 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/24 22:04:32 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/06/24 22:04:32 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/06/24 22:04:32 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | PListStore:[C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-P98JIU4-62263-1656101072990-0:1) is starting
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Listening for connections at: tcp://DESKTOP-P98JIU4:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Listening for connections at: amqp://DESKTOP-P98JIU4:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Listening for connections at: stomp://DESKTOP-P98JIU4:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Listening for connections at: mqtt://DESKTOP-P98JIU4:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@17a22e86{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Listening for connections at ws://DESKTOP-P98JIU4:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-P98JIU4-62263-1656101072990-0:1) started
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 55591 mb of usable space. - resetting to maximum available disk space: 55591 mb
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/06/24 22:04:33 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
