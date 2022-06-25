@@ -21,12 +21,17 @@ Attention: when recently installed an SDK, reboot your machine in order to make 
 ### Start Workers
 #### Worker StationDataCollector
 
-    Open ./Worker/DataCollectionReciever in IntelliJ
+    Open ./Worker/StationDataCollector in IntelliJ
     Run Main
 
 #### Worker DataCollectionReciever
 
     Open ./Worker/DataCollectionReciever in IntelliJ
+    Run Main
+
+#### Worker PDFGenerator
+
+    Open ./PDFGenerator in IntelliJ
     Run Main
 
 ### Database
