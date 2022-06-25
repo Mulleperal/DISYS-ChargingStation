@@ -13,11 +13,26 @@ insert into stationlist (station_id, avialable, latitude, longitude) values (1, 
 (4, 'true', 48.201938, 16.481203),
 (5, 'true', 48.459901, 16.282501);
 
+create table jobInfo (
+	id serial PRIMARY KEY,
+	job_id VARCHAR(36),
+	station_count INT,
+	returned_data_count INT
+);
+
 create table chargingStationData (
 	id serial PRIMARY KEY,
 	station_id INT,
 	customer_id INT,
 	kwh INT,
+	datetime timestamp
+);
+
+create table consumptions (
+	id serial PRIMARY KEY,
+	job_id VARCHAR(36),
+	station_id INT,
+	consumption INT,
 	datetime timestamp
 );
 
