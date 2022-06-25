@@ -32,22 +32,12 @@ public class ConsumptionService extends BaseService {
             throw new RuntimeException(e);
         }
 
-        /*
-
-        // ALT ANFANG
-        String jobID = input.substring(10,46);
-        int customer_id = Integer.valueOf(input.substring(61,67));
-        int station_id = Integer.valueOf(input.substring(80,86));
-        JobInfo jobInfo = new JobInfo(jobID,customer_id);
-        // ALT ENDE
-        */
-
         // Abfrage des Verbrauchs und des Verbrauchszeitpunkt des Kunden X an Station Y aus der DB
         try (Connection conn = connect()) {
             String sql = "select kwh, datetime  from chargingstationdata where customer_id = ? AND station_id = ?";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
-            preparedStatement.setString(1, Integer.toString(jobInfo.getCustomerId()));
-            preparedStatement.setString(2, Integer.toString(jobInfo.getStationId()));
+            preparedStatement.setInt(1, jobInfo.getCustomerId());
+            preparedStatement.setInt(2, jobInfo.getStationId());
             ResultSet resultSet = preparedStatement.executeQuery();
             HashMap<String, String> consumptions = new HashMap<String, String>();
             while (resultSet.next()) {
@@ -55,9 +45,10 @@ public class ConsumptionService extends BaseService {
             }
             jobInfo.setVerbrauch(consumptions);
             System.out.printf("Es wurde für Kunde ");
+            System.out.printf(Integer.toString(jobInfo.getCustomerId()));
             System.out.printf(" der Verbrauch an Station ");
             System.out.printf(Integer.toString(jobInfo.getStationId()));
-            System.out.printf("ermittelt! \n");
+            System.out.printf(" ermittelt! \n");
         } catch (SQLException e) {
             return "error";
         }

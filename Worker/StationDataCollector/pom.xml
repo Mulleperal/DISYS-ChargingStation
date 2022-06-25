@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>at.technikum</groupId>
-    <artifactId>Drink</artifactId>
+    <artifactId>StationDataCollector</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

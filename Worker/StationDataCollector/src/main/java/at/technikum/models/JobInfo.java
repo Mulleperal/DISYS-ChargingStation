@@ -18,6 +18,8 @@ public class JobInfo {
     @JsonProperty("consumption")
     private HashMap<String, String> verbrauch;
 
+    public JobInfo() {}
+
     public JobInfo(String jobId, int customerId) {
         this.jobId = jobId;
         this.customerId = customerId;
