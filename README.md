@@ -14,18 +14,20 @@ Attention: when recently installed an SDK, reboot your machine in order to make 
 
 ### Spring Boot
 
-- Open ./SpringBoot in IntelliJ
-- Run "mvn spring-boot:run"
+    `Open ./SpringBoot in IntelliJ
+    Run "mvn spring-boot:run"`
 
 
 ### Start Workers
-- Worker StationDataCollector
-  - Open ./Worker/DataCollectionReciever in IntelliJ
-  - Run Main
+#### Worker StationDataCollector
 
-- Worker DataCollectionReciever
-  - Open ./Worker/DataCollectionReciever in IntelliJ
-  - Run Main
+    Open ./Worker/DataCollectionReciever in IntelliJ
+    Run Main
+
+#### Worker DataCollectionReciever
+
+    Open ./Worker/DataCollectionReciever in IntelliJ
+    Run Main
 
 ### Database
 
@@ -34,10 +36,15 @@ Prerequisite: For starting docker service: ```sudo service docker start```
 > docker exec -it distorder bash
 
 >$ psql -U distuser
+
 >$ CREATE DATABASE dist;
+
 >$ GRANT ALL PRIVILEGES ON DATABASE dist TO distuser;
+
 >$ \c dist
->$ <paste sql.init contents>
+
+>$ paste sql.init contents
+    
 
 ### Queue
 
