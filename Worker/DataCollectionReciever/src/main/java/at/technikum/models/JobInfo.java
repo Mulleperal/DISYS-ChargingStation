@@ -35,6 +35,10 @@ public class JobInfo {
         return stationIds;
     }
 
+    public int getStationCount() {
+        return stationIds.size();
+    }
+
 // https://stackoverflow.com/questions/15786129/converting-java-objects-to-json-with-jackson
 
     public String toJson() {

@@ -10,6 +10,7 @@ public abstract class BaseService implements Runnable {
     private final String outDestination;
     private final String brokerUrl;
 
+
     public BaseService(String inDestination, String outDestination, String brokerUrl) {
         this.inDestination = inDestination;
         this.outDestination = outDestination;

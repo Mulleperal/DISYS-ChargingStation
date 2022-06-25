@@ -36,6 +36,15 @@ create table consumptions (
 	datetime timestamp
 );
 
+CREATE TABLE customers (
+	id serial PRIMARY KEY,
+	customer_id int NOT NULL,
+	name VARCHAR(50) NOT NULL,
+	postalcode int NOT NULL,
+	city VARCHAR(50) NOT NULL,
+	street VARCHAR(50) NOT NULL
+);
+
 insert into chargingStationData (station_id, customer_id, kwh, datetime) values (1, 18, 30, '2022-01-19 19:20:12');
 insert into chargingStationData (station_id, customer_id, kwh, datetime) values (3, 5, 75, '2022-05-27 11:38:05');
 insert into chargingStationData (station_id, customer_id, kwh, datetime) values (1, 18, 86, '2022-03-01 06:32:04');
@@ -536,3 +545,54 @@ insert into chargingStationData (station_id, customer_id, kwh, datetime) values 
 insert into chargingStationData (station_id, customer_id, kwh, datetime) values (5, 24, 81, '2022-05-01 01:42:52');
 insert into chargingStationData (station_id, customer_id, kwh, datetime) values (1, 7, 74, '2022-04-26 04:20:23');
 insert into chargingStationData (station_id, customer_id, kwh, datetime) values (3, 14, 80, '2022-05-11 11:41:41');
+
+insert into customers (customer_id, name, postalcode, city, street) values (1, 'Ignazio Grinin', 9344, 'Gwanda', 'Chinook 79');
+insert into customers (customer_id, name, postalcode, city, street) values (2, 'Meridith Compford', 7640, 'Galtek', 'Prentice 71');
+insert into customers (customer_id, name, postalcode, city, street) values (3, 'Gaby Grouer', 6973, 'Manhan', 'Morrow 25');
+insert into customers (customer_id, name, postalcode, city, street) values (4, 'Sallee Aliberti', 6864, 'Uspenskoye', 'Texas 148');
+insert into customers (customer_id, name, postalcode, city, street) values (5, 'Easter Waterhowse', 1365, 'Tietê', 'Portage 10');
+insert into customers (customer_id, name, postalcode, city, street) values (6, 'Rosalynd Sleep', 5645, 'Emiliano Zapata', 'Lakewood 84');
+insert into customers (customer_id, name, postalcode, city, street) values (7, 'Ezri Tolcharde', 7276, 'Ismailia', 'Pearson 128');
+insert into customers (customer_id, name, postalcode, city, street) values (8, 'Clayson Taill', 7745, 'Krajan Satu', 'Express 43');
+insert into customers (customer_id, name, postalcode, city, street) values (9, 'Giraldo Finlow', 4566, 'Ait Ali', 'Del Mar 127');
+insert into customers (customer_id, name, postalcode, city, street) values (10, 'Enrichetta Insworth', 1007, 'San Antonio Aguas Calientes', 'Maryland 66');
+insert into customers (customer_id, name, postalcode, city, street) values (11, 'Cordy Dredge', 9136, 'El Hajeb', 'Stephen 79');
+insert into customers (customer_id, name, postalcode, city, street) values (12, 'Allard Dimont', 6980, 'Baima', 'Chive 47');
+insert into customers (customer_id, name, postalcode, city, street) values (13, 'Harmon Guage', 4654, 'Vannes', 'Mitchell 80');
+insert into customers (customer_id, name, postalcode, city, street) values (14, 'Vickie Nealand', 5375, 'Shenshan', 'Mayfield 45');
+insert into customers (customer_id, name, postalcode, city, street) values (15, 'Marysa McCowan', 2723, 'Moss', 'Arrowood 41');
+insert into customers (customer_id, name, postalcode, city, street) values (16, 'Roch Brewer', 5045, 'Tangjin', 'Trailsway 93');
+insert into customers (customer_id, name, postalcode, city, street) values (17, 'Danya Westoff', 1007, 'Chaviña', 'Oriole 124');
+insert into customers (customer_id, name, postalcode, city, street) values (18, 'Claire Fordy', 3905, 'Sada', 'Russell 111');
+insert into customers (customer_id, name, postalcode, city, street) values (19, 'Harris Haselgrove', 8569, 'Janiuay', 'Butterfield 11');
+insert into customers (customer_id, name, postalcode, city, street) values (20, 'Benedick Spratt', 7763, 'Golden', 'Hooker 74');
+insert into customers (customer_id, name, postalcode, city, street) values (21, 'Jinny O''Halligan', 6509, 'Göteborg', 'Shopko 84');
+insert into customers (customer_id, name, postalcode, city, street) values (22, 'Marven Dorrance', 6242, 'Calvário', 'Rowland 121');
+insert into customers (customer_id, name, postalcode, city, street) values (23, 'Nelly Aimeric', 8766, 'Kubangeceng', 'Waxwing 76');
+insert into customers (customer_id, name, postalcode, city, street) values (24, 'Duncan Dring', 9369, 'Copán', 'Ridgeview 7');
+insert into customers (customer_id, name, postalcode, city, street) values (25, 'Carlota Aleksankin', 9106, 'Panjāb', 'Old Gate 37');
+insert into customers (customer_id, name, postalcode, city, street) values (26, 'Skelly Quaife', 2787, 'Alta Gracia', 'Farmco 119');
+insert into customers (customer_id, name, postalcode, city, street) values (27, 'Elinor Fraczek', 1612, 'Lampa', 'Scott 63');
+insert into customers (customer_id, name, postalcode, city, street) values (28, 'Talya Cully', 3240, 'Río', 'Moulton 57');
+insert into customers (customer_id, name, postalcode, city, street) values (29, 'Iago Wilhelmy', 5582, 'Guadalupe', 'Becker 17');
+insert into customers (customer_id, name, postalcode, city, street) values (30, 'Riane Burfitt', 3454, 'Bayan Uula Sumu', 'Crest Line 24');
+insert into customers (customer_id, name, postalcode, city, street) values (31, 'Emmanuel Pirkis', 6268, 'Taman', 'Elgar 29');
+insert into customers (customer_id, name, postalcode, city, street) values (32, 'Kenna Hultberg', 2060, 'Cachoeira do Sul', 'Rigney 118');
+insert into customers (customer_id, name, postalcode, city, street) values (33, 'Albrecht Lannen', 9300, 'Yabrūd', 'Mendota 137');
+insert into customers (customer_id, name, postalcode, city, street) values (34, 'Miltie Aps', 4311, 'Jianxin', 'Center 34');
+insert into customers (customer_id, name, postalcode, city, street) values (35, 'Bobbe Cleaveland', 2565, 'Fabianki', 'Talisman 22');
+insert into customers (customer_id, name, postalcode, city, street) values (36, 'Rafe Crispe', 1381, 'Galimuyod', 'Declaration 59');
+insert into customers (customer_id, name, postalcode, city, street) values (37, 'Ilene Threadgould', 3699, 'Lunyuk Ode', 'Utah 70');
+insert into customers (customer_id, name, postalcode, city, street) values (38, 'Jarrett Megahey', 6237, 'Junshan', 'Valley Edge 16');
+insert into customers (customer_id, name, postalcode, city, street) values (39, 'Fidelia Gotecliffe', 3749, 'Zevenaar', 'Anthes 13');
+insert into customers (customer_id, name, postalcode, city, street) values (40, 'Rafferty Kenset', 3442, 'Donghui', 'Stang 121');
+insert into customers (customer_id, name, postalcode, city, street) values (41, 'Neel Tonbridge', 2089, 'Gwio Kura', 'Judy 10');
+insert into customers (customer_id, name, postalcode, city, street) values (42, 'Prinz Ellacott', 8388, 'Monasterevin', 'Hanover 70');
+insert into customers (customer_id, name, postalcode, city, street) values (43, 'Wilburt Arnason', 3913, 'Lloque', 'Tennyson 144');
+insert into customers (customer_id, name, postalcode, city, street) values (44, 'Kirsten Bensen', 5438, 'Bajiao', 'Arapahoe 94');
+insert into customers (customer_id, name, postalcode, city, street) values (45, 'Judi Oulett', 8733, 'Melres', 'Ridgeway 73');
+insert into customers (customer_id, name, postalcode, city, street) values (46, 'Meredith Slaymaker', 8853, 'Hewan', 'Truax 115');
+insert into customers (customer_id, name, postalcode, city, street) values (47, 'Murielle Schultze', 8990, 'Zhongshu', 'Delladonna 76');
+insert into customers (customer_id, name, postalcode, city, street) values (48, 'Rey Colqueran', 2757, 'Mañazo', 'Anhalt 67');
+insert into customers (customer_id, name, postalcode, city, street) values (49, 'Odelle Tregear', 6051, 'Songjiang', 'Welch 67');
+insert into customers (customer_id, name, postalcode, city, street) values (50, 'Halsey Scotsbrook', 2115, 'Pemba', 'Harper 96');
