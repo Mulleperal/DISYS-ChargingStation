@@ -33,6 +33,7 @@ Attention: when recently installed an SDK, reboot your machine in order to make 
 
 Prerequisite: For starting docker service: ```sudo service docker start```
 > docker run --rm --detach --name distorder -e POSTGRES_USER=distuser -e POSTGRES_PASSWORD=distpw -v data:/var/lib/postgresql/data -p 5432:5432 postgres
+
 > docker exec -it distorder bash
 
 >$ psql -U distuser
