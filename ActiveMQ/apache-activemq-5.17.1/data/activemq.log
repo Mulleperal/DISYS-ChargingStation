@@ -43,3 +43,33 @@
 2022-06-24 22:04:33,270 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 55591 mb of usable space. - resetting to maximum available disk space: 55591 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
 2022-06-24 22:04:33,699 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
 2022-06-24 22:04:33,699 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-06-24 22:11:12,434 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-06-24 22:11:12,484 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-06-24 22:11:12,488 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2022-06-24 22:11:12,490 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2022-06-24 22:11:12,619 | INFO  | PListStore:[C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2022-06-24 22:11:12,762 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-P98JIU4-59974-1656101472628-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-06-24 22:11:12,775 | INFO  | Listening for connections at: tcp://DESKTOP-P98JIU4:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-06-24 22:11:12,775 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-06-24 22:11:12,777 | INFO  | Listening for connections at: amqp://DESKTOP-P98JIU4:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-06-24 22:11:12,777 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-06-24 22:11:12,779 | INFO  | Listening for connections at: stomp://DESKTOP-P98JIU4:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-06-24 22:11:12,780 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-06-24 22:11:12,782 | INFO  | Listening for connections at: mqtt://DESKTOP-P98JIU4:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2022-06-24 22:11:12,782 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-06-24 22:11:12,785 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-06-24 22:11:12,812 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2022-06-24 22:11:12,846 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@59ab0218{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2022-06-24 22:11:12,908 | INFO  | Listening for connections at ws://DESKTOP-P98JIU4:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2022-06-24 22:11:12,908 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2022-06-24 22:11:12,908 | INFO  | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-P98JIU4-59974-1656101472628-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-06-24 22:11:12,908 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-06-24 22:11:12,914 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 55538 mb of usable space. - resetting to maximum available disk space: 55538 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2022-06-24 22:11:13,381 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-06-24 22:11:13,381 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2022-06-24 22:28:47,590 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp906590738-63
+2022-06-24 22:30:58,798 | INFO  | Removing message jobInfoQueue(ID:DESKTOP-P98JIU4-60323-1656102010341-11:1:1:1:1) | org.apache.activemq.web.controller.DeleteMessage | qtp906590738-53
+2022-06-24 23:11:13,322 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Session-HouseKeeper-4add1063-1
+2022-06-24 23:39:50,079 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp906590738-291
+2022-06-25 00:11:13,365 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Session-HouseKeeper-4add1063-1
+2022-06-25 00:14:42,965 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp906590738-105
