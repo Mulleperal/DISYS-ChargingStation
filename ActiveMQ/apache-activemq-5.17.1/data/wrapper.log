@@ -306,3 +306,386 @@ INFO   | jvm 1    | 2022/06/26 00:08:34 |  INFO | For help or more information p
 INFO   | jvm 1    | 2022/06/26 00:08:34 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\dev\4-DISYS\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb only has 51924 mb of usable space. - resetting to maximum available disk space: 51924 mb
 INFO   | jvm 1    | 2022/06/26 00:08:34 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
 INFO   | jvm 1    | 2022/06/26 00:08:34 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2022/06/26 09:52:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/26 09:52:43 | Launching a JVM...
+FATAL  | wrapper  | 2022/06/26 09:52:43 | Unable to execute Java command.  Das System kann die angegebene Datei nicht finden. (0x2)
+FATAL  | wrapper  | 2022/06/26 09:52:43 |     "C:\JDK\jdk-17.0.2\bin\java" -Dactivemq.home="../.." -Dactivemq.base="../.." -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore="../../conf/broker.ks" -Djavax.net.ssl.trustStore="../../conf/broker.ts" -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf="../../conf" -Dactivemq.data="../../data" -Djava.security.auth.login.config="../../conf/login.config" -Xms1024m -Xmx1024m -Djava.library.path="../../bin/win64" -classpath "../../bin/wrapper.jar;../../bin/activemq.jar" -Dwrapper.key="4n9wxONI1tHBZsM6" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1212 -Dwrapper.version="3.2.3" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp org.apache.activemq.console.Main start
+FATAL  | wrapper  | 2022/06/26 09:52:43 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2022/06/26 09:54:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/26 09:54:09 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/26 09:54:11 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/26 09:54:11 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/26 09:54:11 | 
+INFO   | jvm 1    | 2022/06/26 09:54:11 | Java Runtime: Oracle Corporation 17.0.2 C:\JDK\jdk-17.0.2
+INFO   | jvm 1    | 2022/06/26 09:54:11 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2022/06/26 09:54:11 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=sJYgurc6luCQcYEA -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3028 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/26 09:54:11 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/26 09:54:11 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/26 09:54:11 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/26 09:54:11 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/26 09:54:11 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/26 09:54:11 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/26 09:54:17 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | PListStore:[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53124-1656230059644-0:1) is starting
+INFO   | jvm 1    | 2022/06/26 09:54:19 | ERROR | Failed to start Apache ActiveMQ (localhost, ID:DESKTOP-AMB05AH-53124-1656230059644-0:1)
+INFO   | jvm 1    | 2022/06/26 09:54:19 | java.io.IOException: Transport Connector could not be registered in JMX: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 due to: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:30) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:2241) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.startTransportConnector(BrokerService.java:2722) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.startAllConnectors(BrokerService.java:2618) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.doStartBroker(BrokerService.java:757) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.startBroker(BrokerService.java:719) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:622) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.xbean.XBeanBrokerService.afterPropertiesSet(XBeanBrokerService.java:73) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1930) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1872) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.21.jar:4.21]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.21.jar:4.21]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) ~[activemq.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.console.Main.main(Main.java:115) ~[activemq.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) ~[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | Caused by: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 due to: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:36) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:146) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.TransportConnector.createTransportServer(TransportConnector.java:336) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.TransportConnector.getServer(TransportConnector.java:146) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.TransportConnector.asManagedConnector(TransportConnector.java:111) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:2236) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	... 46 more
+INFO   | jvm 1    | 2022/06/26 09:54:19 | Caused by: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at sun.nio.ch.Net.bind(Net.java:544) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at java.net.ServerSocket.bind(ServerSocket.java:388) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at java.net.ServerSocket.<init>(ServerSocket.java:274) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at javax.net.DefaultServerSocketFactory.createServerSocket(ServerSocketFactory.java:231) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:143) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.TransportConnector.createTransportServer(TransportConnector.java:336) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.TransportConnector.getServer(TransportConnector.java:146) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.TransportConnector.asManagedConnector(TransportConnector.java:111) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:2236) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 09:54:19 | 	... 46 more
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53124-1656230059644-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | PListStore:[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/26 09:54:19 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/26 09:54:20 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/26 09:54:20 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53124-1656230059644-0:1) uptime 0.861 seconds
+INFO   | jvm 1    | 2022/06/26 09:54:20 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53124-1656230059644-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/26 09:54:20 |  WARN | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.activemq.xbean.XBeanBrokerService#0' defined in class path resource [activemq.xml]: Invocation of init method failed; nested exception is java.io.IOException: Transport Connector could not be registered in JMX: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 due to: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 09:54:20 | ERROR: java.lang.RuntimeException: Failed to execute start task. Reason: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 09:54:20 | java.lang.RuntimeException: Failed to execute start task. Reason: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | Caused by: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:168)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	... 16 more
+INFO   | jvm 1    | 2022/06/26 09:54:20 | ERROR: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 09:54:20 | java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:168)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2022/06/26 09:54:20 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+STATUS | wrapper  | 2022/06/26 09:54:22 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/26 10:00:13 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/26 10:00:13 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/26 10:00:14 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/26 10:00:14 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/26 10:00:14 | 
+INFO   | jvm 1    | 2022/06/26 10:00:14 | Java Runtime: Oracle Corporation 17.0.2 C:\JDK\jdk-17.0.2
+INFO   | jvm 1    | 2022/06/26 10:00:14 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2022/06/26 10:00:14 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=mpiAip_1zkjRdp_n -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9064 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/26 10:00:14 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/26 10:00:14 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/26 10:00:14 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/26 10:00:14 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/26 10:00:14 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/26 10:00:14 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/26 10:00:15 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/26 10:00:16 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/26 10:00:16 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | PListStore:[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53212-1656230417215-0:1) is starting
+INFO   | jvm 1    | 2022/06/26 10:00:17 | ERROR | Failed to start Apache ActiveMQ (localhost, ID:DESKTOP-AMB05AH-53212-1656230417215-0:1)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | java.io.IOException: Transport Connector could not be registered in JMX: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 due to: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:30) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:2241) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.startTransportConnector(BrokerService.java:2722) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.startAllConnectors(BrokerService.java:2618) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.doStartBroker(BrokerService.java:757) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.startBroker(BrokerService.java:719) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:622) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerService.afterPropertiesSet(XBeanBrokerService.java:73) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1930) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1872) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.21.jar:4.21]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.21.jar:4.21]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) ~[activemq-spring-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) ~[activemq-console-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) ~[activemq.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.Main.main(Main.java:115) ~[activemq.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) ~[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | Caused by: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 due to: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:36) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:146) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.TransportConnector.createTransportServer(TransportConnector.java:336) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.TransportConnector.getServer(TransportConnector.java:146) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.TransportConnector.asManagedConnector(TransportConnector.java:111) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:2236) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	... 46 more
+INFO   | jvm 1    | 2022/06/26 10:00:17 | Caused by: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at sun.nio.ch.Net.bind(Net.java:544) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.net.ServerSocket.bind(ServerSocket.java:388) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.net.ServerSocket.<init>(ServerSocket.java:274) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at javax.net.DefaultServerSocketFactory.createServerSocket(ServerSocketFactory.java:231) ~[?:?]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.transport.tcp.TcpTransportServer.bind(TcpTransportServer.java:143) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.transport.tcp.TcpTransportFactory.doBind(TcpTransportFactory.java:62) ~[activemq-client-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.transport.TransportFactorySupport.bind(TransportFactorySupport.java:40) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.TransportConnector.createTransportServer(TransportConnector.java:336) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.TransportConnector.getServer(TransportConnector.java:146) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.TransportConnector.asManagedConnector(TransportConnector.java:111) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerService.registerConnectorMBean(BrokerService.java:2236) ~[activemq-broker-5.17.1.jar:5.17.1]
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	... 46 more
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53212-1656230417215-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | PListStore:[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53212-1656230417215-0:1) uptime 0.961 seconds
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-53212-1656230417215-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/26 10:00:17 |  WARN | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.activemq.xbean.XBeanBrokerService#0' defined in class path resource [activemq.xml]: Invocation of init method failed; nested exception is java.io.IOException: Transport Connector could not be registered in JMX: java.io.IOException: Failed to bind to server socket: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 due to: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2022/06/26 10:00:17 | ERROR: java.lang.RuntimeException: Failed to execute start task. Reason: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 10:00:17 | java.lang.RuntimeException: Failed to execute start task. Reason: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | Caused by: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:168)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	... 16 more
+INFO   | jvm 1    | 2022/06/26 10:00:17 | ERROR: java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 10:00:17 | java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:168)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2022/06/26 10:00:17 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+STATUS | wrapper  | 2022/06/26 10:00:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/26 10:09:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/26 10:09:58 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/26 10:09:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/26 10:09:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/26 10:09:58 | 
+INFO   | jvm 1    | 2022/06/26 10:09:59 | Java Runtime: Oracle Corporation 17.0.2 C:\JDK\jdk-17.0.2
+INFO   | jvm 1    | 2022/06/26 10:09:59 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2022/06/26 10:09:59 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=8lZz6N2ggLK_CkzJ -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6964 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/26 10:09:59 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/26 10:09:59 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/26 10:09:59 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/26 10:09:59 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/26 10:09:59 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/26 10:09:59 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/26 10:10:03 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | PListStore:[C:\dev\disys\DISYS-ChargingStation\ActiveMQ\apache-activemq-5.17.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-50461-1656231004500-0:1) is starting
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Listening for connections at: tcp://DESKTOP-AMB05AH:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Listening for connections at: amqp://DESKTOP-AMB05AH:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Listening for connections at: stomp://DESKTOP-AMB05AH:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Listening for connections at: mqtt://DESKTOP-AMB05AH:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/26 10:10:04 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4e5d5655{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/26 10:10:05 |  INFO | Listening for connections at ws://DESKTOP-AMB05AH:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/26 10:10:05 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/26 10:10:05 |  INFO | Apache ActiveMQ 5.17.1 (localhost, ID:DESKTOP-AMB05AH-50461-1656231004500-0:1) started
+INFO   | jvm 1    | 2022/06/26 10:10:05 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/26 10:10:05 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2022/06/26 10:10:05 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/

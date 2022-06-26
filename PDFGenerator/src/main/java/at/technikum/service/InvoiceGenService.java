@@ -10,13 +10,12 @@ import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.*;
+import com.itextpdf.layout.element.List;
 import com.itextpdf.layout.properties.TabAlignment;
 import com.itextpdf.layout.properties.UnitValue;
 
 import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 public class InvoiceGenService extends BaseService {
 
@@ -92,9 +91,20 @@ public class InvoiceGenService extends BaseService {
             double totalPrice = 0;
 
             HashMap<String, String> verbrauch = invoiceInfo.getConsumption();
-            for (Map.Entry<String,String> entry : verbrauch.entrySet()) {
-                String timestamp = entry.getKey();
-                int consumption = Integer.parseInt(entry.getValue());
+
+            // sort via Arraylist
+
+            ArrayList<String> sortedKeys = new ArrayList<String>(verbrauch.keySet());
+            Collections.sort(sortedKeys);
+            Collections.reverse(sortedKeys);
+
+            // Fill Table with Content of consumptions
+            for (String x : sortedKeys) {
+                System.out.println("Key = " + x
+                        + ", Value = " + verbrauch.get(x));
+
+                String timestamp = x;
+                int consumption = Integer.parseInt(verbrauch.get(x));
 
                 // Zelle 1 - Timestamp
                 Paragraph paraTime = new Paragraph()
@@ -186,4 +196,11 @@ public class InvoiceGenService extends BaseService {
         return new Cell().add(templateContent);
     }
 
+
+
+
 }
+
+
+
+
