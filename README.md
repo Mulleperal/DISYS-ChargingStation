@@ -1,6 +1,20 @@
 # DISYS-ChargingStation
 
 ## Start the Distributed Services:
+### Folder Structure
+DISYS-ChargingStation
+├───ActiveMQ
+│   └───apache-activemq-5.17.1
+├───Database
+├───DatraCollectionDispatcher
+├───JavaFX
+├───PDFGenerator
+│   └───invoices
+└───Worker
+    ├───DataCollectionReciever
+    └───StationDataCollector
+
+
 ### JavaFX
     Open ./JavaFX in IntelliJ
     Run "mvn javafx:run"
