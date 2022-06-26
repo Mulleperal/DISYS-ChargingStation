@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="544.0" prefWidth="279.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+    <TextField fx:id="tf_id" promptText="Select User" text="Select User" />
+
+    <Label fx:id="welcomeText" />
+    <Button onAction="#btnClicked" text="Create Invoice" />
+    <Button onAction="#getBtnClicked" text="Get Invoice" />
+    <Text fx:id="responseTxt" strokeType="OUTSIDE" strokeWidth="0.0" />
+    <Button fx:id="downloadBtn" mnemonicParsing="false" onAction="#openFile" text="Open File" visible="false">
+        <graphic>
+            <Hyperlink fx:id="downloadLink" visible="false" />
+        </graphic></Button>
+    <Text fx:id="createdTS" strokeType="OUTSIDE" strokeWidth="0.0" text="Created:" visible="false" />
+</VBox>
